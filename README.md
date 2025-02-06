@@ -37,4 +37,4 @@ How to run the Expense-Management-System-in-PHP Using PHP and MySQL (Code Camp B
 
 ### Preview
  - Admin Deshbord
-    <img src="screen/image.png">
+    <img src="screens/image.png">
