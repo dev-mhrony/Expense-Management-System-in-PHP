@@ -2,7 +2,7 @@
 ### Expense-Management-System Using PHP and MySQL
 
 
-How to run the Expense-Management-System-in-PHP Using PHP and MySQL (Code Camp BD - GYM  Management System ) Project
+How to run the Expense-Management-System-in-PHP Using PHP and MySQL (Code Camp BD - Expense Management System in PHP ) Project
 
 1. Download the Expense-Management-System-in-PHP zip file
 
