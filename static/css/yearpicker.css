@@ -1,0 +1,122 @@
+/* <!-- 
+- Author Name: MH RONY.
+- GigHub Link: https://github.com/dev-mhrony
+- Facebook Link:https://www.facebook.com/dev.mhrony
+- Youtube Link: <a href = "https://www.youtube.com/@codecampbdofficial"> Code Camp BD</a>
+- for any PHP, Laravel, Python, Dart, Flutter work contact me at codecampbdofficial@gmail.com
+--> */
+:root {
+    --background-color: #fff;
+    --border-color: #ccc;
+    --text-color: #555;
+    --selected-text-color: #C0392B;
+    --hover-background-color: #eee;
+}
+/* <!-- 
+- Author Name: MH RONY.
+- GigHub Link: https://github.com/dev-mhrony
+- Facebook Link:https://www.facebook.com/dev.mhrony
+- Youtube Link: <a href = "https://www.youtube.com/@codecampbdofficial"> Code Camp BD</a>
+- for any PHP, Laravel, Python, Dart, Flutter work contact me at codecampbdofficial@gmail.com
+--> */
+.yearpicker-container {
+    position: absolute;
+    color: var(--text-color);
+    width: 280px;
+    border: 1px solid var(--border-color);
+    border-radius: 3px;
+    font-size: 1rem;
+    box-shadow: 1px 1px 8px 0px rgba(0,0,0,0.2);
+    background-color: var(--background-color);
+}
+/* <!-- 
+- Author Name: MH RONY.
+- GigHub Link: https://github.com/dev-mhrony
+- Facebook Link:https://www.facebook.com/dev.mhrony
+- Youtube Link: <a href = "https://www.youtube.com/@codecampbdofficial"> Code Camp BD</a>
+- for any PHP, Laravel, Python, Dart, Flutter work contact me at codecampbdofficial@gmail.com
+--> */
+.yearpicker-header {
+    display: flex;
+    width: 100%;
+    height: 2.5rem;
+    border-bottom: 1px solid var(--border-color);
+    align-items: center;
+    justify-content: space-around;
+}
+/* <!-- 
+- Author Name: MH RONY.
+- GigHub Link: https://github.com/dev-mhrony
+- Facebook Link:https://www.facebook.com/dev.mhrony
+- Youtube Link: <a href = "https://www.youtube.com/@codecampbdofficial"> Code Camp BD</a>
+- for any PHP, Laravel, Python, Dart, Flutter work contact me at codecampbdofficial@gmail.com
+--> */
+.yearpicker-prev,
+.yearpicker-next {
+    cursor: pointer;
+    font-size: 2rem;
+}
+
+.yearpicker-prev:hover,
+.yearpicker-next:hover {
+    color: var(--selected-text-color);
+}
+/* <!-- 
+- Author Name: MH RONY.
+- GigHub Link: https://github.com/dev-mhrony
+- Facebook Link:https://www.facebook.com/dev.mhrony
+- Youtube Link: <a href = "https://www.youtube.com/@codecampbdofficial"> Code Camp BD</a>
+- for any PHP, Laravel, Python, Dart, Flutter work contact me at codecampbdofficial@gmail.com
+--> */
+.yearpicker-year {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 0.5rem;
+}/* <!-- 
+- Author Name: MH RONY.
+- GigHub Link: https://github.com/dev-mhrony
+- Facebook Link:https://www.facebook.com/dev.mhrony
+- Youtube Link: <a href = "https://www.youtube.com/@codecampbdofficial"> Code Camp BD</a>
+- for any PHP, Laravel, Python, Dart, Flutter work contact me at codecampbdofficial@gmail.com
+--> */
+
+.yearpicker-items {
+    list-style: none;
+    padding: 1rem 0.5rem;
+    flex: 0 0 33.3%;
+    width: 100%;
+}
+/* <!-- 
+- Author Name: MH RONY.
+- GigHub Link: https://github.com/dev-mhrony
+- Facebook Link:https://www.facebook.com/dev.mhrony
+- Youtube Link: <a href = "https://www.youtube.com/@codecampbdofficial"> Code Camp BD</a>
+- for any PHP, Laravel, Python, Dart, Flutter work contact me at codecampbdofficial@gmail.com
+--> */
+.yearpicker-items:hover {
+    background-color: var(--hover-background-color);
+    color: var(--selected-text-color);
+    cursor: pointer;
+}
+/* <!-- 
+- Author Name: MH RONY.
+- GigHub Link: https://github.com/dev-mhrony
+- Facebook Link:https://www.facebook.com/dev.mhrony
+- Youtube Link: <a href = "https://www.youtube.com/@codecampbdofficial"> Code Camp BD</a>
+- for any PHP, Laravel, Python, Dart, Flutter work contact me at codecampbdofficial@gmail.com
+--> */
+.yearpicker-items.selected {
+    color: var(--selected-text-color);
+}
+.hide{
+    display: none;
+}/* <!-- 
+- Author Name: MH RONY.
+- GigHub Link: https://github.com/dev-mhrony
+- Facebook Link:https://www.facebook.com/dev.mhrony
+- Youtube Link: <a href = "https://www.youtube.com/@codecampbdofficial"> Code Camp BD</a>
+- for any PHP, Laravel, Python, Dart, Flutter work contact me at codecampbdofficial@gmail.com
+--> */
