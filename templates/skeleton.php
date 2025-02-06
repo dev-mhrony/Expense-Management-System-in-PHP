@@ -75,7 +75,7 @@
         </ul>
 
         <!-- end nav left  -->
-        <h1 class="navbar-text">Expense Management System - Code camp BD</h1>
+        <h1 class="navbar-text">Expense Management System - Code Camp BD</h1>
         <!-- nav right  -->
         <ul class="navbar-nav nav-right">
             <!-- <li class="nav-item">
